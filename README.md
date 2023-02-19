@@ -10,13 +10,9 @@ You can create dynamic routes with '$' prefix syntax. For example `$id.tsx`.
 
 ## Folder Names
 
-### Static Routes
+For static pages => `pages/about/index.tsx`
 
-If you need to create a static route for "about" you need to create => pages/about/index.tsx
-
-### Dynamic Routes
-
-If you need to create dynamic route for profile page for example you need to create => `pages/profile/$id.tsx`
+For dynamic pages => `pages/profile/$id.tsx`
 
 However you still need to create `navlinks` manually.
 
